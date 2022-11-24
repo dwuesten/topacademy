@@ -10,7 +10,7 @@
   display: grid;
   column-gap: 20px;
   row-gap: 20px;
-  @include text-font($color-grey-normal);
+  @include text-font($color-red-normal);
   grid-template-columns: 1fr;
   grid-template-rows: 100px 1fr auto;
   grid-template-areas:
