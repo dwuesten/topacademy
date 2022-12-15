@@ -44,7 +44,7 @@ export default class Headermenu extends Component {
 						<a href="/">
 							<div className={css["main-header__nav-home-container"]}>
 								<img src="/images/logo/logowithtext.png" alt="logo" className={css["main-header__nav-home-logo"]} />
-								<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+								<img src="/images/logo/logo.png" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
 							</div>
 						</a>
 					</li>
@@ -84,7 +84,7 @@ export default class Headermenu extends Component {
 							<a href="/">
 								<div className={css["main-header__nav-home-container"]}>
 									<img src="/images/logo/logowithtext.png" alt="logo" className={css["main-header__nav-home-logo"]} />
-									<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+									<img src="/images/logo/logo.png" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
 								</div>
 							</a>
 						</nav>
