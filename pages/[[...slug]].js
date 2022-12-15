@@ -37,6 +37,7 @@ export async function getStaticProps({ params }) {
       "course.colorcode",
       "person.colorcode",
       "location.colorcode",
+      "destination.colorcode",
       "course.teachers",
       "course.locations",
       "list.elements"

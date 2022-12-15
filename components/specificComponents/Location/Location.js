@@ -37,7 +37,7 @@ export default class Location extends Component {
 					<div className={css["location__main-content"]}>
 						<div id="location__short-description" key="location__short-description" className={css["location__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>Hello everyone</h2>
+								<h2 className={css["rich-text-section__title"]}></h2>
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
 						</div>
