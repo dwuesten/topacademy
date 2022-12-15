@@ -24,16 +24,20 @@ import TwoCol from '../components/layoutComponents/TwoCol/TwoCol';
 import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Location from '../components/specificComponents/Location/Location';
+import Destination from '../components/specificComponents/Destination/Destination';
+import Product from '../components/specificComponents/Product/Product';
 
 
 const components = {
   person: Teacher,
+  destination: Destination,
   experience: Experience,
   hero: Hero,
   page: Page,
   headermenu: Headermenu,
   menulink: Menulink,
   paragraph: Paragraph,
+  product:Product,
   intro: Intro,
   leftrightblock: LeftRightBlock,
   course: Course,

@@ -33,6 +33,7 @@ export async function getStaticProps({ params }) {
     resolve_relations: [
       "hero.colorcode",
       "leftrightblock.colorcode",
+      "product.colorcode",
       "course.colorcode",
       "person.colorcode",
       "location.colorcode",
